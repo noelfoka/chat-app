@@ -22,13 +22,13 @@ html, body {
 }
 
 .joinInnerContainer {
-  width: 30%;
+  width: 50%;
 }
 
 .joinInput {
   padding: 15px 20px;
   font-size: 1.5em;
-  border-radius: 40%;
+  border-radius: 20%;
   width: 100%;
 }
 
@@ -43,6 +43,7 @@ html, body {
 .button {
     color: #fff !important;
     text-transform: uppercase;
+    font-size: 1.5em;
     text-decoration: none;
     background: #2978ff6c;
     padding: 20px;
@@ -56,7 +57,7 @@ html, body {
   margin-top: 20px;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) {
   .joinOuterContainer {
     height: 100%;
   }

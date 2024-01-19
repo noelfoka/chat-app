@@ -3,6 +3,10 @@ import queryString from "query-string";
 import io from "socket.io-client";
 
 const Chat = () => {
+    useEffect(() => {
+        
+    });
+
     return (
         <div>
             <h1>Chat</h1>

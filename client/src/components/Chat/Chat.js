@@ -5,6 +5,9 @@ import io from "socket.io-client";
 const Chat = ({ location }) => {
     useEffect(() => {
         const data = queryString.parse(location.search);
+
+        console.log(location.search);
+        console.log(data);
     });
 
     return (

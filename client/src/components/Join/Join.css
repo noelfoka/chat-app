@@ -50,14 +50,26 @@ html, body {
     border-radius: 60%;
     display: inline-block;
     border: none;
-    width: 100%;
+    width: 97%;
 }
 
 .mt-20 {
   margin-top: 20px;
 }
 
-@media (min-width: 320px) {
+@media (min-width: 48px) and (max-width: 720px) {
+  .joinOuterContainer {
+    height: 100%;
+  }
+
+  .joinInnerContainer {
+    width: 90%;
+  }
+
+
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
   .joinOuterContainer {
     height: 100%;
   }

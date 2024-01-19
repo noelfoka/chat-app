@@ -10,8 +10,9 @@ const Chat = (location) => {
     useEffect(() => {
         const searchTerm = location?.search;
         const { name, room } = queryString.parse(searchTerm);
+        const ENDPOINT = "localhost:5000"
 
-        socket = io("localhost:5000");
+        socket = io(ENDPOINT);
 
         setName(name);
         setRoom(room);

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import queryString from "query-string";
 import io from "socket.io-client";
 
-const Chat = ({ location }) => {
+const Chat = (location) => {
     useEffect(() => {
         const searchTerm = location.search;
         const data = queryString.parse(searchTerm);

@@ -22,11 +22,12 @@ html, body {
 }
 
 .joinInnerContainer {
-  width: 20%;
+  width: 30%;
 }
 
 .joinInput {
   padding: 15px 20px;
+  font-size: 1.5em;
   border-radius: 40%;
   width: 100%;
 }

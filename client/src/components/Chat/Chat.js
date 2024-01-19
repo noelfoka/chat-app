@@ -4,9 +4,11 @@ import io from "socket.io-client";
 
 const Chat = ({ location }) => {
     useEffect(() => {
-        const { name, room } = queryString.parse(location.search);
+        const searchTerm = location.search;
+        const data = queryString.parse(searchTerm);
 
-        
+        console.log(location.search);
+        console.log(data);
     });
 
     return (

@@ -11,7 +11,7 @@ const Chat = (location) => {
         const searchTerm = location?.search;
         const { name, room } = queryString.parse(searchTerm);
 
-        socket = io();
+        socket = io("localhost:5000");
 
         setName(name);
         setRoom(room);

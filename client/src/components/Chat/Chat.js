@@ -6,11 +6,11 @@ const Chat = (location) => {
     const [name, setName] = useState('');
     const [room, setRoom] = useState('');
     useEffect(() => {
-        const searchTerm = location.search;
+        const searchTerm = location?.search;
         const { name, room } = queryString.parse(searchTerm);
 
-        console.log(location.search);
-        console.log(data);
+        setName(name);
+        setRoom(room);
     });
 
     return (

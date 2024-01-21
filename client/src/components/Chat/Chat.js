@@ -13,7 +13,7 @@ const ENDPOINT = 'https://project-chat-application.herokuapp.com/';
 
 let socket;
 
-const Chat = ({ location }) => {
+const Chat = (location) => {
   const [name, setName] = useState('');
   const [room, setRoom] = useState('');
   const [users, setUsers] = useState('');
